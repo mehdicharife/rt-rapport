@@ -1,0 +1,59 @@
+% !TeX root = Report.tex
+\documentclass[a4paper,12pt]{report}
+\input{Preamble}
+\input{Environements}
+
+\begin{document}
+    %================================COVER PAGE==============================
+    \thispagestyle{empty} 
+    \include{intro/Cover} 
+    \cleardoublepage
+    
+    %================================Dedicace============================
+    \newpage
+    \input{intro/Dedicace}
+
+    %================================REMERCIEMENT============================
+    \newpage
+    \input{intro/Remerciments}
+
+    %================================RESUME============================
+    \newpage
+    \input{intro/Resume}
+
+    %==================================ABSTRACT==============================
+    %\input{intro/Abstract}
+
+    %================================RESUME============================
+    \newpage
+    \input{intro/Liste des abréviation}
+    
+    \newpage
+    %===============================PLAN============================
+    {
+        \thispagestyle{empty}
+        \tableofcontents
+        \thispagestyle{empty}
+    }
+    {
+        \thispagestyle{empty}
+        \listoffigures
+        \thispagestyle{empty}
+    }
+
+    %===============================INTRODUCTION============================
+    \input{intro/Introduction generale}
+
+    \input{chapters/1.Contexte général du projet}
+    \input{chapters/2.Approche du Projet WATCH}
+    \input{chapters/3.L’automatisation des tests}
+    \input{chapters/4.Analyse et conception}
+    \input{chapters/5.Réalisation et résultats}
+    \input{chapters/6.Conduite du projet}
+
+    %===============================CONCLUSION============================
+    \input{outro/Conclusion generale}
+    
+    %===============================BIBLIOGRAPHY============================
+    \bibliography{BIBLIOGRAPHY}
+\end{document}

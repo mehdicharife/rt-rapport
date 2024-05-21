@@ -1,0 +1,90 @@
+% !TeX root = main.tex
+%_______________________________ Packages ______________________________
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}       %for language
+\usepackage{float} %for H
+\usepackage{blindtext}                                                  %for Dummy Text
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.75cm,right=2.75cm]{geometry}    %for document shape
+\usepackage{graphicx}                                                   %images
+\usepackage{enumitem}                                                   % Used to compact lists
+\usepackage{fancyhdr}                                                   %fancy headers
+\usepackage{amsmath}                                                    %maths
+\usepackage{titling}                                                    %for a pretitle f maketitle
+\usepackage{tikz}
+\usepackage{fancybox}
+\usepackage{tabularx}
+\usepackage{wrapfig}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage[footnote]{acronym}
+
+%_______________________________________________________________________
+%_______________________________ for font ______________________________
+%\renewcommand{\familydefault}{\sfdefault}     
+\selectlanguage{french}
+%_______________________________________________________________________
+%___________________________ for fancy pages ___________________________
+\pagestyle{fancy}   
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[R,L]{\chaptername \  \thechapter}
+\fancyhead[LE,RO]{\rightmark} 
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {Table des matières}%
+}
+
+
+ %%%%********************************************************************
+\definecolor{quotemark}{gray}{0.7}
+\makeatletter
+\def\fquote{%
+    \@ifnextchar[{\fquote@i}{\fquote@i[]}%]
+           }%
+\def\fquote@i[#1]{%
+    \def\tempa{#1}%
+    \@ifnextchar[{\fquote@ii}{\fquote@ii[]}%]
+                 }%
+\def\fquote@ii[#1]{%
+    \def\tempb{#1}%
+    \@ifnextchar[{\fquote@iii}{\fquote@iii[]}%]
+                      }%
+\def\fquote@iii[#1]{%
+    \def\tempc{#1}%
+    \vspace{1em}%
+    \noindent%
+    \begin{list}{}{%
+         \vspace{3.6cm}
+         \setlength{\leftmargin}{0.1\textwidth}%
+         \setlength{\rightmargin}{0.1\textwidth}%
+                  }%
+         \item[]%
+         \begin{picture}(0,0)%
+         \put(-15,-5){\makebox(0,0){\scalebox{3}{\textcolor{quotemark}{``}}}}%
+         \end{picture}%
+         \begingroup\itshape}%
+ %%%%********************************************************************
+ \def\endfquote{%
+ \endgroup\par%
+ \makebox[0pt][l]{%
+ \hspace{0.8\textwidth}%
+ \begin{picture}(0,0)(0,0)%
+ \put(15,15){\makebox(0,0){%
+ \scalebox{3}{\color{quotemark}''}}}%
+ \end{picture}}%
+ \ifx\tempa\empty%
+ \else%
+    \ifx\tempc\empty%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb}%
+   \else%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb},\ \tempc%
+   \fi\fi\par%
+   \vspace{0.5em}%
+ \end{list}%
+ }%
+ \makeatother
+ %%%%********************************************************************
+
+
+\bibliographystyle{plain}
