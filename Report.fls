@@ -313,7 +313,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -323,8 +322,8 @@ INPUT ./intro/Dedicace.tex
 INPUT ./intro/Dedicace.tex
 INPUT intro/Dedicace.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./intro/Remerciments.tex
 INPUT ./intro/Remerciments.tex
 INPUT ./intro/Remerciments.tex
@@ -374,7 +373,17 @@ INPUT ./chapters/1.Contexte général du projet.tex
 INPUT ./chapters/1.Contexte général du projet.tex
 INPUT chapters/1.Contexte général du projet.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT ./logos/BCP.png
+INPUT ./logos/BCP.png
+INPUT ./logos/BCP.png
+INPUT ./logos/BCP.png
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./images/bcp-structure.jpg
+INPUT ./images/bcp-structure.jpg
+INPUT ./images/bcp-structure.jpg
+INPUT ./images/bcp-structure.jpg
+INPUT ./images/bcp-structure.jpg
 INPUT ./chapters/2.Approche du Projet WATCH.tex
 INPUT ./chapters/2.Approche du Projet WATCH.tex
 INPUT chapters/2.Approche du Projet WATCH.tex
