@@ -11,33 +11,34 @@
 \contentsline {subsection}{\numberline {1.2.1}Client: Fonction Conformité Groupe}{5}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Problèmatique}{5}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Objectif}{5}{subsection.1.2.3}%
-\contentsline {chapter}{\numberline {2}Approche du Projet WATCH}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Vision du Projet}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Objectifs du Projet}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Ingestion et transformation des données}{6}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Gestion des Règles de corrélation}{6}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Supervision des alerts}{6}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Les clients de Watch}{6}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}Méthodologie de Travail}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Rôles et Responsabilités}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Architecture Technique}{6}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Cadre de Développement}{6}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Outils}{6}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Intégration et test}{6}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Déploiement}{6}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}L'état d'avancement du projet}{6}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Processus de Test}{6}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Conclusion}{6}{section.2.9}%
-\contentsline {chapter}{\numberline {3}L’automatisation des tests}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Conclusion}{7}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Analyse et conception}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Conclusion}{8}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Réalisation et résultats}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{9}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conduite du projet}{10}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{10}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Conclusion}{10}{section.6.2}%
+\contentsline {chapter}{\numberline {2}Analyse fonctionnelle}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}État de l'existant}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Spécification du besoins}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Besoins fonctionnels}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Objectifs du Projet}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Ingestion et transformation des données}{9}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Gestion des Règles de corrélation}{9}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Supervision des alerts}{9}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Les clients de Watch}{9}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Méthodologie de Travail}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Rôles et Responsabilités}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Architecture Technique}{9}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Cadre de Développement}{9}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Outils}{9}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Intégration et test}{9}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Déploiement}{9}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}L'état d'avancement du projet}{9}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Processus de Test}{9}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Conclusion}{9}{section.2.9}%
+\contentsline {chapter}{\numberline {3}L’automatisation des tests}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Conclusion}{10}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Analyse et conception}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Conclusion}{11}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Réalisation et résultats}{12}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{12}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{12}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conduite du projet}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Conclusion}{13}{section.6.2}%

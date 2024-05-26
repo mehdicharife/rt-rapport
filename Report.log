@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.20)  26 MAY 2024 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.20)  26 MAY 2024 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -694,12 +694,12 @@ Package hyperref Info: Link coloring OFF on input line 6.
 \openout2 = `intro/Cover.aux'.
 
  (./intro/Cover.tex
-<logos/Um5-ENSIAS.png, id=163, 210.7875pt x 90.3375pt>
+<logos/Um5-ENSIAS.png, id=167, 210.7875pt x 90.3375pt>
 File: logos/Um5-ENSIAS.png Graphic file (type png)
 <use logos/Um5-ENSIAS.png>
 Package pdftex.def Info: logos/Um5-ENSIAS.png  used on input line 5.
 (pdftex.def)             Requested size: 127.89554pt x 54.81355pt.
-<logos/BCP.png, id=164, 2569.6pt x 709.65125pt>
+<logos/BCP.png, id=168, 2569.6pt x 709.65125pt>
 File: logos/BCP.png Graphic file (type png)
 <use logos/BCP.png>
 Package pdftex.def Info: logos/BCP.png  used on input line 9.
@@ -726,7 +726,7 @@ l.24 \clearpage
 
 
 ]) (./intro/Remerciments.tex
-<images/zwa9a line.png, id=181, 597.17842pt x 55.78737pt>
+<images/zwa9a line.png, id=185, 597.17842pt x 55.78737pt>
 File: images/zwa9a line.png Graphic file (type png)
 <use images/zwa9a line.png>
 Package pdftex.def Info: images/zwa9a line.png  used on input line 2.
@@ -930,7 +930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--40
 
  []
 
-<images/bcp-structure.jpg, id=274, 2677.00125pt x 1505.625pt>
+<images/bcp-structure.jpg, id=279, 2677.00125pt x 1505.625pt>
 File: images/bcp-structure.jpg Graphic file (type jpg)
 <use images/bcp-structure.jpg>
 Package pdftex.def Info: images/bcp-structure.jpg  used on input line 44.
@@ -994,7 +994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-) (./chapters/2.Approche du Projet WATCH.tex
+) (./chapters/2.Analyse du besoin.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.71667pt, for example:
@@ -1006,23 +1006,63 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapitre 2.
-) (./chapters/3.L’automatisation des tests.tex [6
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Overfull \hbox (5.18282pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/bx/n/12 Variabilit^^Se de for-mat \OT1/cmr/m/n/12 : Les fi-chiers Ex-cel peuvent avoir des struc-tures diff^^Serentes,
+ []
+
+[6
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[7
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[8
+
+]) (./chapters/3.L’automatisation des tests.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[9
 
 ]
 Chapitre 3.
-) (./chapters/4.Analyse et conception.tex [7
+) (./chapters/4.Analyse et conception.tex [10
 
 ]
 Chapitre 4.
-) (./chapters/5.Réalisation et résultats.tex [8
+) (./chapters/5.Réalisation et résultats.tex [11
 
 ]
 Chapitre 5.
-) (./chapters/6.Conduite du projet.tex [9
+) (./chapters/6.Conduite du projet.tex [12
 
 ]
 Chapitre 6.
-) (./outro/Conclusion generale.tex [10
+) (./outro/Conclusion generale.tex [13
 
 ]
 File: images/zwa9a line.png Graphic file (type png)
@@ -1058,21 +1098,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: A6E7371DE77E196F08E1F625B671441B;6043.
+(rerunfilecheck)             Checksum: 7EA98EB0ADA324BB3C3130385FD6FD00;6269.
  ) 
 Here is how much of TeX's memory you used:
- 24305 strings out of 474050
- 444125 string characters out of 5742269
+ 24308 strings out of 474050
+ 444122 string characters out of 5742269
  1940751 words of memory out of 5000000
- 46194 multiletter control sequences out of 15000+600000
+ 46195 multiletter control sequences out of 15000+600000
  566255 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,12n,96p,1077b,776s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,96p,1077b,790s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Report.pdf (21 pages, 1287387 bytes).
+Output written on Report.pdf (24 pages, 1293600 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 322 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 

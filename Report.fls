@@ -384,9 +384,9 @@ INPUT ./images/bcp-structure.jpg
 INPUT ./images/bcp-structure.jpg
 INPUT ./images/bcp-structure.jpg
 INPUT ./images/bcp-structure.jpg
-INPUT ./chapters/2.Approche du Projet WATCH.tex
-INPUT ./chapters/2.Approche du Projet WATCH.tex
-INPUT chapters/2.Approche du Projet WATCH.tex
+INPUT ./chapters/2.Analyse du besoin.tex
+INPUT ./chapters/2.Analyse du besoin.tex
+INPUT chapters/2.Analyse du besoin.tex
 INPUT ./chapters/3.L’automatisation des tests.tex
 INPUT ./chapters/3.L’automatisation des tests.tex
 INPUT chapters/3.L’automatisation des tests.tex

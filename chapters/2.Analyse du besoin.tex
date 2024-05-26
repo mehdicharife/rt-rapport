@@ -1,0 +1,105 @@
+\chapter{Analyse fonctionnelle}
+
+\section{État de l'existant}
+Initialement, le registre de traitement utilisé par la banque existait sous forme de 80 fiches de traitement réparties sur 26 fichiers Excel. L'ajout, la modification, la consultation, et la validation des fiches de traitements se faisaient manuellement en manipulant des fichiers Excel qui faisaient l'objet de plusieurs transferts par mail entre les différents acteurs impliqués dans les processus liées à la gestion du registre de traitement. Bien que cette approche permettait à la banque de maintenir une certaine visibilité sur l'ensemble de ses traitements des donnnées à caractère personnel, elle présentait certaines lacunes et difficultées dont les plus impactantes étaient: \\
+
+\noindent \textbf{Structure non standardisée}:
+\begin{itemize}
+    \item \textbf{Variabilité de format}: Les fichiers Excel peuvent avoir des structures différentes, ce qui complique l'importation automatisée.
+    \item \textbf{Absence de normalisation}: Les entités peuvent ne pas suivre un schéma cohérent d'un fichier à l'autre, rendant difficile la définition d'un modèle de données uniforme.
+\end{itemize}
+\vspace{.4cm}
+\noindent \textbf{Problèmes de qualité de données}:
+\begin{itemize}
+    \item \textbf{Données manquantes ou incomplètes}: Certains champs importants peuvent être vides ou mal remplis.
+    \item \textbf{Données incohérentes}: Il peut y avoir des incohérences dans les valeurs (par exemple, des formats de dates différents, des fautes de frappe).
+    \item \textbf{Erreurs de saisie}: Les données saisies manuellement sont sujettes à des erreurs humaines, ce qui peut affecter la qualité des informations.
+\end{itemize}
+\vspace{.4cm}
+
+\noindent \textbf{Limitations techniques}:
+\begin{itemize}
+    \item \textbf{Taille des dichiers}: Les fichiers Excel volumineux peuvent poser des problèmes de performance lors de leur lecture et traitement;
+    \item \textbf{Dépendance à un logiciel}: L'accès aux fichiers Excel nécessite souvent l'utilisation d'un logiciel spécifique (Microsoft Excel ou un équivalent), ce qui peut limiter l'automatisation.
+\end{itemize}
+\clearpage
+\noindent \textbf{Gestion des versions}:
+\begin{itemize}
+    \item \textbf{Multiples versions}: La gestion de plusieurs versions des fichiers peut entraîner des problèmes de synchronisation et de traçabilité des modifications.
+    \item \textbf{Absence de contrôle de version}: Il peut être difficile de suivre les modifications apportées aux fichiers, surtout si plusieurs personnes y ont accès.
+\end{itemize}
+\vspace{.4cm}
+\noindent \textbf{Sécurité et confidentialité}:
+\begin{itemize}
+    \item \textbf{Accès non sécurisé}: Les fichiers Excel peuvent être partagés sans contrôle d'accès strict, posant des risques pour la confidentialité des données.
+    \item \textbf{Données sensibles}: Les fichiers peuvent contenir des informations sensibles nécessitant des mesures de sécurité supplémentaires.
+\end{itemize}
+\vspace{.4cm}
+
+
+\vspace{.4cm}
+\noindent \textbf{Mise à jour et maintenance}:
+\begin{itemize}
+    \item\textbf{Complexité de la mise à jour} : Mettre à jour les données ou corriger les erreurs dans les fichiers Excel peut être laborieux et sujet à des erreurs supplémentaires.
+    \item \textbf{Maintenance difficile} : La maintenance des fichiers Excel (comme l'ajout de nouvelles colonnes ou la modification de la structure) peut être complexe et nécessiter des ajustements fréquents de l'application.
+\end{itemize}
+\vspace{.4cm}
+
+\noindent \textbf{Performance et scalabilité}:
+\begin{itemize}
+    \item \textbf{Temps de traitement}: Le traitement des données à partir de fichiers Excel peut être lent, surtout si les fichiers sont volumineux ou nombreux.
+    \item \textbf{Problèmes de scalabilité}: Les fichiers Excel ne sont pas conçus pour gérer de grandes quantités de données de manière efficace et peuvent poser des problèmes lorsque le volume de données augmente.
+\end{itemize}
+\vspace{.4cm}
+
+\clearpage
+
+
+\section{Spécification du besoins}
+
+\subsection{Besoins fonctionnels}
+\vspace{.4cm}
+\begin{itemize}
+    \item Tenir à jour le référentiel et la structure de registre de traitement; \vspace{.2cm}
+    \item Saisir les données par fiche et selon la structure proposée en ligne et en colonne; \vspace{.2cm}
+    \item Gérer la traçabilité des saisies, des modifications, et des actualisations des fiches de traitement; \vspace{.2cm}
+    \item Gérer les relations et les renvois entre les fiches traitement; \vspace{.2cm}
+    \item Recherches multicritères, par Catégorie de traitement, Sous-catégorie de traitement, traitement et/ou recommandation CNDP (ou Autorité locale pour les filiales à linternational); \vspace{.2cm}
+    \item Centraliser lensemble des traitements des données à caractère personnel au sein de létablissement; \vspace{.2cm}
+    \item Disposer dun registre des traitements exhaustif, clair et facilement accessible; \vspace{.2cm}
+    \item Avoir une vue densemble sur les traitements effectués par les entités de la BCP, et ce afin de mener une démarche damélioration continue dinventaire et de classification des données à caractère personnel; \vspace{.2cm}
+    \item Faire revoir, compléter et valider facilement ces traitements par les RPO et Relais en charge de la protection des données personnelles.
+\end{itemize}
+
+
+
+\clearpage
+\subsection{Objectifs du Projet}
+
+\subsection{Ingestion et transformation des données}
+
+\subsection{Gestion des Règles de corrélation}
+
+\subsection{Supervision des alerts}
+
+\subsection{Les clients de Watch}
+
+\section{Méthodologie de Travail}
+
+\section{Rôles et Responsabilités}
+
+\section{Architecture Technique}
+
+\section{Cadre de Développement}
+
+\subsection{Outils}
+
+\subsection{Intégration et test}
+
+\subsection{Déploiement}
+
+\section{L'état d'avancement du projet}
+
+\section{Processus de Test}
+
+\section{Conclusion}
