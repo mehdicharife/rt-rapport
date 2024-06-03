@@ -1,5 +1,13 @@
 \chapter{Analyse fonctionnelle}
 
+Le présent chapitre contient une présentation de l'ensemble des fonctions attendues du système, les différents acteurs qui interagiront avec celui-ci, ainsi que la répartition des responsabilités de chaque acteur par rapport aux différentes fonctionnalités. Une partie est également consacrée pour analyser l'état de l'existant et son positionnement vis-à-vis le besoin analysé. \\
+
+\noindent La collecte, l'organisation, et la prioritisation des fonctions s'est basée sur l'analyse d'un document d'expression de besoin fourni par la fonction Conformité du Crédit Populaire du Maroc (CPM), ainsi qu'un nombre de réunions effectuées avec les représentants de cette fonction. \\
+
+\clearpage
+
+
+
 \section{État de l'existant}
 Initialement, le registre de traitement utilisé par la banque existait sous forme de 80 fiches de traitement réparties sur 26 fichiers Excel. L'ajout, la modification, la consultation, et la validation des fiches de traitements se faisaient manuellement en manipulant des fichiers Excel qui faisaient l'objet de plusieurs transferts par mail entre les différents acteurs impliqués dans les processus liées à la gestion du registre de traitement. Bien que cette approche permettait à la banque de maintenir une certaine visibilité sur l'ensemble de ses traitements des donnnées à caractère personnel, elle présentait certaines lacunes et difficultées dont les plus impactantes étaient: \\
 
@@ -19,16 +27,19 @@ Initialement, le registre de traitement utilisé par la banque existait sous for
 
 \noindent \textbf{Limitations techniques}:
 \begin{itemize}
-    \item \textbf{Taille des dichiers}: Les fichiers Excel volumineux peuvent poser des problèmes de performance lors de leur lecture et traitement;
-    \item \textbf{Dépendance à un logiciel}: L'accès aux fichiers Excel nécessite souvent l'utilisation d'un logiciel spécifique (Microsoft Excel ou un équivalent), ce qui peut limiter l'automatisation.
+    \item \textbf{Taille des fichiers}: Les fichiers Excel volumineux peuvent poser des problèmes de performance lors de leur lecture et traitement;
+    \item \textbf{Dépendance à un logiciel}: L'accès aux fichiers Excel nécessite souvent l'utilisation d'un logiciel spécifique (Microsoft Excel ou un équivalent), ce qui peut limiter la portabilité.
 \end{itemize}
-\clearpage
+\vspace{.4cm}
+
 \noindent \textbf{Gestion des versions}:
 \begin{itemize}
     \item \textbf{Multiples versions}: La gestion de plusieurs versions des fichiers peut entraîner des problèmes de synchronisation et de traçabilité des modifications.
     \item \textbf{Absence de contrôle de version}: Il peut être difficile de suivre les modifications apportées aux fichiers, surtout si plusieurs personnes y ont accès.
 \end{itemize}
 \vspace{.4cm}
+
+\mycomment{
 \noindent \textbf{Sécurité et confidentialité}:
 \begin{itemize}
     \item \textbf{Accès non sécurisé}: Les fichiers Excel peuvent être partagés sans contrôle d'accès strict, posant des risques pour la confidentialité des données.
@@ -51,11 +62,11 @@ Initialement, le registre de traitement utilisé par la banque existait sous for
     \item \textbf{Problèmes de scalabilité}: Les fichiers Excel ne sont pas conçus pour gérer de grandes quantités de données de manière efficace et peuvent poser des problèmes lorsque le volume de données augmente.
 \end{itemize}
 \vspace{.4cm}
+}
 
 \clearpage
 
-
-\section{Spécification du besoins}
+\section{Spécification des besoins}
 
 \subsection{Besoins fonctionnels}
 \vspace{.4cm}
@@ -66,40 +77,114 @@ Initialement, le registre de traitement utilisé par la banque existait sous for
     \item Gérer les relations et les renvois entre les fiches traitement; \vspace{.2cm}
     \item Recherches multicritères, par Catégorie de traitement, Sous-catégorie de traitement, traitement et/ou recommandation CNDP (ou Autorité locale pour les filiales à linternational); \vspace{.2cm}
     \item Centraliser lensemble des traitements des données à caractère personnel au sein de létablissement; \vspace{.2cm}
-    \item Disposer dun registre des traitements exhaustif, clair et facilement accessible; \vspace{.2cm}
+    \item Disposer d'un registre des traitements exhaustif, clair et facilement accessible; \vspace{.2cm}
     \item Avoir une vue densemble sur les traitements effectués par les entités de la BCP, et ce afin de mener une démarche damélioration continue dinventaire et de classification des données à caractère personnel; \vspace{.2cm}
     \item Faire revoir, compléter et valider facilement ces traitements par les RPO et Relais en charge de la protection des données personnelles.
 \end{itemize}
 
 
+\subsection{Besoins non-fonctionnels}
+
+\begin{itemize}
+    \item \textbf{Ergonomie:}
+    \begin{itemize}
+        \item Cohérence de l'interface: Par rapport aux attentes de l'utilisateur (facilité, simplicité, clarté, arrangement des écrans);
+        \item Documentation implicite: En introduisant des Messages d'erreur ou d’accompagnement et un système d'aide en ligne;
+        \item Facilité d'utilisation: Applicabilité de l'expérience de l'utilisateur dans un contexte analogue, réactions «naturelles» et intuitives;
+        \item  Minimisation de la possibilité d'erreurs de manipulation: Offrir des listes déroulantes, choix des dates au lieu de les saisir, …etc; 
+        \item  Minimisation de la possibilité d'erreurs de manipulation: Offrir des listes déroulantes, choix des dates au lieu de les saisir, …etc.
+    \end{itemize}
+    \item \textbf{Sécurité:} En plus de la sécurité qu'offre le système d'exploitation, l'application doit permettre:
+    \begin{itemize}
+        \item La gestion des habilitations concernant l'accés et l'utilisation de l'application;
+        \item La gestion du système d'habilitation doit être du ressort d'un administrateur de l'outil.
+    \end{itemize}
+\end{itemize}
 
 \clearpage
-\subsection{Objectifs du Projet}
 
-\subsection{Ingestion et transformation des données}
+\section{Acteurs du système}
+La gestion du registre de traitement nécessite la collaboration étroite de plusieurs acteurs dont l'intéraction efficace est primordiale pour l'atteinte des objectifs qui constituent la raison d'être du registre de traitement: \\
 
-\subsection{Gestion des Règles de corrélation}
+\begin{itemize}
+    \item \textbf{Expert métier:} Il s'agit de l'acteur le plus familiarisé avec les traitements de données. Il peut être impliqué pour fournir des connaissances spécifiques sur la manière dont les données sont collectées, traitées et utilisées dans une activité ou un processus particulier; \\
+    \item \textbf{Délégué à la protection des données (DPO):} Également appelé Data Protection Officer, il est chargé d'assurer la conformité aux réglementations en matière de protection des données au sein d'une organisation. Sa mission principale est d'informer et de conseiller l'organisme, de contrôler le respect du présent réglement et de coopérer avec les autorités de contrôle;\\
+    \item \textbf{Relais de Protection des données Opérationnelle (RPO):} Sa responsabilité est d'effectuer un premier niveau de validation pour les fiches de traitement des donnnées;\\
+    \item \textbf{Global Data Protection Officer (GDPO):} Il opère à l'échelle mondiale dans une organisation internationale. Il s'assure que les pratiques de protection des données sont cohérentes dans toutes les filiales de l'entreprise, en tenant compte des réglementations spécifiques à chaque juridiction. \\ \\
+\end{itemize}
 
-\subsection{Supervision des alerts}
 
-\subsection{Les clients de Watch}
+\noindent La collaboration entre l'expert métier, le Délégué à la Protection des données (DPO), le Relais de Protection des données Opérationnelle (RPO), et le Global Data Protection Officer (GDPO) est essentielle. Cette synergie vise à garantir la conformité et la cohérence des pratiques de protection des données, permettant ainsi d'atteindre les objectifs du registre de traitement.
 
-\section{Méthodologie de Travail}
 
-\section{Rôles et Responsabilités}
 
-\section{Architecture Technique}
 
-\section{Cadre de Développement}
 
-\subsection{Outils}
 
-\subsection{Intégration et test}
 
-\subsection{Déploiement}
+\clearpage
 
-\section{L'état d'avancement du projet}
 
-\section{Processus de Test}
+\section{Cas d'utilisations}
 
-\section{Conclusion}
+\subsection{Diagramme de cas d'utilisation global simplifé}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/use-case.png}
+    \caption{Diagramme de cas d'utilisation global simplifié}
+\end{figure}
+
+
+\subsection{Diagramme de cas d'utilisation de l'Expert métier}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/cas-utilisation-expert-metier.png}
+    \caption{Diagramme de cas d'utilisation de l'expert métier}
+\end{figure}
+
+\clearpage
+
+
+\subsection{Diagrammde de cas d'utilisation du RPO}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/cas-utilisation-rpo.png}
+    \caption{Diagrammde de cas d'utilisation du RPO}
+\end{figure}
+
+\clearpage
+
+\subsection{Diagramme de cas d'utilisation du DPO}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/cas-utilisation-dpo.png}
+    \caption{Diagramme de cas d'utilisation du DPO}
+\end{figure}
+
+\clearpage
+
+
+\subsection{Diagramme de cas d'utilisation du GDPO}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/cas-utilisation-gdpo.png}
+    \caption{Diagramme de cas d'utilisation du GDPO}
+\end{figure}
+
+\clearpage
+
+\subsection{Diagramme de cas d'utilisation de l'agent d'habilitation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/cas-utilisation-agent-habiliation.png}
+    \caption{Diagramme de cas d'utilisation de l'agent d'habilitation}
+\end{figure}
+
+
+
+\clearpage
