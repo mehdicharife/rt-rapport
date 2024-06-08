@@ -163,26 +163,193 @@
 
 \section{Interfaces graphiques}
 
-\subsection{Gestion des paramètrages}
+\subsection{Page d'authentification}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{images/parametrage.png}
+    \includegraphics[height=.65\textwidth, angle=90]{images/guis/login.png}
+    \caption{Page d'authentification}
+\end{figure}
+
+
+\clearpage
+
+
+
+\subsection{Gestion des paramètrages}
+
+\noindent Afin de permettre une certaine adaptabilité du registre de traitement aux besoins qui peuvent changer en matière des représentants du groupe, des directions de chaque représentant, de la nature des données traitées, et de la façon avec laquelle tous ces derniers seront exprimés, une page a été consacrée pour gérer l'ensemble des valeurs pouvant être pris par tous les attributs de la fiche du traitement. \\
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/parametrage/initial.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+\vspace{.2cm}
+
+\noindent La page est composée d'un tableau affichant l'ensemble de ces valeurs, ainsi qu'un bouton qui en permet l'extension en exposant un formulaire dont les champs décrivent les caractéristiques de la valeur à ajouter. \\
+
+\noindent Initialement, et avant tout ajout d'une nouvelle valeur, le tableau est naturellement vide et un "placeholder" démontrant l'absence de valeurs est affiché.
+
+\noindent Les colonnes du tableau décrivent des caractéristiques des valeurs tels que l'identifiant, le contenu, ainsi que le nom d'attribut auquel la valeur appartient. Pour chaque valeur, le tableau expose une dernière colonne qui permet d'effectuer certains actions sur la valeur en question. Notamment, la modification et la désactivation. \\
+
+\noindent Le tableau comporte également une barre d'outil qui permet de limiter le nombre des colonnes affichées, de filtrer les valeurs du tableau, de modifier la taille des lignes, ainsi que d'exporter l'ensemble des valeurs derrière le tableau en un fichier csv.
+\clearpage
+
+\noindent Lors du clique sur le bouton libellé "Ajouter", un formulaire en "Modal" est affiché. Initialement, le formulaire impose une sélection de l'attribut à paramétrer. Suite à cette sélection, un nombre additionnel de champs est affiché qui dépend de la nature de l'attribut choisi. Pour la fiche du traitement on distingue trois types d'attributs: \\
+
+\begin{itemize}
+    \item  \textbf{Indépendants}: Ils constituent une majorité des attributs de la fiche, et ils présentent aucune association avec le reste des attributs. Le paramétrage de ces attributs, donc, naturellement, nécessite uniquement la valeur à ajouter. De ce fait, lors de la sélection d'un de ces attributs, un seul champ est ajouté, celui destiné à la nouvelle valeur de l'attribut;
+    \item \textbf{Associés}: Ces derniers présentent des associations avec d'autres attributs, et donc, par exemple, le paramétrage d'un attribut ayant un association ManyToOne avec un autre attribut, nécessite non-uniquement la nouvelle valeur de l'attribut à paramétrer, mais également la valeur de l'attribut de l'autre coté de l'association;
+    \item \textbf{Composés}: Sont composés de plusieurs attributs, qui pevent eux memes etre composés, associés, ou/et indépendants. La paramétrage de ces attributs nécessite tout ce qui est nécessaire pour le paramètrage des attributs composants.
+\end{itemize}
+
+
+
+
+\begin{figure}[H]
+    \includegraphics[width=.7\textwidth]{images/guis/parametrage/form-initial.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=.7\textwidth, right]{images/guis/parametrage/form-attribute-selection.png}
     \caption{Page de paramétrage}
 \end{figure}
 
 \clearpage
 
-
-\subsection{Ajout d'une fiche de traitement}
+\noindent La figure ci-dessous illustre un exemple de paramétrage des attributs qualifiés "associés". L'attribut est nommé "Base légale" et ne dispose d'aucune association avec les autres attributs de la fiche. Dans cette figure, le formulaire est composé uniquement de deux champs, celui dédié à l'attribut à paramètrer, et celui dédié à sa nouvelle valeur, égale à "base1" dans le présent cas. \\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{images/formulaire-fiche.png}
+    \includegraphics[width=\textwidth]{images/guis/parametrage/form-independent-attribute.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+\clearpage
+
+\noindent Pour les attributs qualifiés "associés", le formulaire s'adapte lors de la sélection de l'attribut en exposant des champs destinées aux valeurs des attributs avec lesquels il présente une association. \\
+
+\noindent Par exemple, l'attribut nommé "Representant" dispose de deux associations "OneToMany" avec les attributs "Direction" et "Logiciel". De ce fait, la sélection de "Representant" dans le champs libellé "Attribut" résulte en l'ajout de deux champs supplémentaire, un libellé "Direction" et l'autre "Logiciel". \\
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/parametrage/form-parent-attribute.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+\noindent Du fait de la nature "OneToMany" de l'association dont dispose l'attribut "Représentant" avec les autres attributs, les valeurs de ces derniers ne sont pas obligatoires dans le formulaire. \\
+
+\noindent La figure ci-dessus présente un cas d'utilisation dont l'utilisateur souhaite ajouter un représentantr dont la valeur est "repX", dont les directions sont "dirX1", "dirX2", et "dirX3", et dont les logiciels sont "logX1" et "logX2". Suite à cet ajout, le tableau des valeurs est populé par la valeur du nouveau représentant, ainsi que les valeurs des attributs avec lequel il dispose d'une association "OneToMany".
+
+
+
+
+\clearpage
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/parametrage/table-post-parent-saved.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+
+\noindent Si un besoin se présente d'ajouter une nouvelle direction au représentant "repX", l'utilisateur peut faire usage du même formulaire en sélectionnant "Direction" comme attribut. Cette fois-ci, le formulaire s'adapte en exposant un champ dédié à la valeur du répresentant avec lequel la nouvelle direction sera associée. Vu que l'association Direction -\> Représentant est "ManyToOne", la saisie de la valeur du représentant est obligatoire pour l'enregistrement de la nouvelle direction. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/parametrage/form-child1.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+\clearpage
+
+\noindent La figure 4.19 illustre le comportement du formulaire lors de la sélection de l'attribut "Direction". On remarque que le représentant "repX" précédemment enregistré figure dans l'ensemble des choix du champ libellé "Représentant". 
+
+\noindent Le même s'applique lors du paramétrage de l'attribut "Logiciel":
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.8\textwidth]{images/guis/parametrage/form-child2.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+
+\noindent Suite à l'enregistrement de ces valeurs, le tableau s'adapte dynamiquement pour refleter les changements: \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/parametrage/post-children-save-table.png}
+    \caption{Page de paramétrage}
+\end{figure}
+
+
+\clearpage
+\subsection{Ajout d'une fiche de traitement}
+
+L'ajout d'une fiche de traitement se fait à travers un formulaire à plusieurs étapes dont chacune décrit un sous-ensemble des caractéristiques du traitement en question. Le choix d'utiliser un formulaire à plusieurs étapes originait de la nécessité d'avoir une vue détaillée du traitement des données, et ce afin d'exposer toutes les informations qui peuvent jouer un rôle dans l'évaluation de la conformité du traitement aux réglementations en matière de la protection des données à caractère personnel. \\
+
+\noindent La première étape, libellée "Identification de la fiche", expose des champs qui permettent d'identifier le traitement en question, ses finalités, les différentes parties qui en portent la responsabilité, ainsi que des informations originaires de la CNDP. Dans cette partie, le remplissage des champs relatifs au représentant du responsable du traitement, de ses directions, ainsi que les logiciels à l'aide desquels le traitement va être effectué est obligatoire. Suite au remplissage de ces champs, le bouton "Suivant" devient actif et l'utilisateur peut naviguer à l'étape suivante. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/nouvelle-fiche/nouvelle-fiche-1.png}
     \caption{Page d'ajout d'une fiche de traitement}
 \end{figure}
 
 \clearpage
+
+\noindent La deuxième étape, libellée \textit{"Données traitées"}, concerne, comme le nom l'indique, la nature des données sur lesquels va opérer le traitement. Dans le but d'offrir une meuilleure repérabilité des données à traiter, une décomposition à 3 niveaux a été utilisée dont chaque type de données appartient à un super-type lui même ayant un super-type.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/nouvelle-fiche/nouvelle-fiche-2-1.png} 
+    \caption{Première section de la 2ème étape du formulaire de la fiche}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/nouvelle-fiche/nouvelle-fiche-2-2.png} 
+    \caption{Deuxième section de la 2ème étape du formulaire de la fiche}
+\end{figure}
+
+\clearpage
+
+\noindent La troisième étape, intitulée \textit{"Catégorie des données"}, regroupe des champs qui permettent de vérifier l'existence, et dans le cas positif de décrire, les catégories de données sensibles par nature (eg. opinions politiques, appartenance syndicale, conviction religieuse) ainsi que les données à caractère personnel constituant le sujet du traitement en question. Elle englobe également des champs destinés à la durée de conservation des données à traiter ainsi que les catégories des destinataires de ces données, s'il y en a. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/nouvelle-fiche/nouvelle-fiche-3.png} 
+    \caption{3ème étape du formulaire de la fiche}
+\end{figure}
+    
+\clearpage
+
+\noindent La quatrième étape, intitulée "Transferts," permet de spécifier si le traitement des données nécessite des transferts de celles-ci en dehors du Maroc ou de l'Union Européenne. Cette étape est cruciale pour assurer la conformité avec les réglementations locales et internationales sur la protection des données. Elle oblige les responsables du traitement à indiquer clairement les destinations des données et à vérifier que ces transferts respectent les normes de sécurité et de confidentialité en vigueur, garantissant ainsi la protection des droits des personnes concernées. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/nouvelle-fiche/nouvelle-fiche-4.png} 
+    \caption{4ème étape du formulaire de la fiche}
+\end{figure}
+
+\clearpage
+
+\noindent 
+La dernière étape, \textit{"Mesures de sécurité"}, décrit l'ensemble des mesures à prendre afin d'assurer la confidentialité des données à traiter. Cette étape expose des champs dont chacun concerne une mesure spécifique de sécurité. L'utilisateur est censé ajouter, pour chaque mesure prise dans le contexte du traitement, des détails qui permettent de donner une vue plus compréhensive des efforts entrepris dans le contexte spécifique de la mesure en question. \\
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/nouvelle-fiche/nouvelle-fiche-5.png} 
+    \caption{5ème étape du formulaire de la fiche}
+\end{figure}
+
+\noindent En vertu du coup élevé en cas de mal-saisie, le bouton "Suivant" est remplacé par un bouton qui permet à l'utilisateur de visualiser un récapitulatif des informations saisies à propos du traitement tout au long du formulaire, ce qui permet d'effectuer une dernière validation avant de confirmer l'enregistrement de la fiche de traitement. 
 
 
 \subsection{Liste des fiches de traitement}

@@ -48,6 +48,7 @@
 \contentsline {subsection}{\numberline {4.1.11}Github}{27}{subsection.4.1.11}%
 \contentsline {subsection}{\numberline {4.1.12}Github Actions}{27}{subsection.4.1.12}%
 \contentsline {section}{\numberline {4.2}Interfaces graphiques}{28}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Gestion des paramètrages}{28}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Ajout d'une fiche de traitement}{29}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Liste des fiches de traitement}{30}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.1}Page d'authentification}{28}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Gestion des paramètrages}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Ajout d'une fiche de traitement}{35}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Liste des fiches de traitement}{41}{subsection.4.2.4}%
