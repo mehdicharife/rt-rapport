@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.20)  8 JUN 2024 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.20)  9 JUN 2024 16:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -771,12 +771,12 @@ Package hyperref Info: Link coloring OFF on input line 11.
 \openout2 = `intro/Cover.aux'.
 
  (./intro/Cover.tex
-<logos/Um5-ENSIAS.png, id=208, 210.7875pt x 90.3375pt>
+<logos/Um5-ENSIAS.png, id=224, 210.7875pt x 90.3375pt>
 File: logos/Um5-ENSIAS.png Graphic file (type png)
 <use logos/Um5-ENSIAS.png>
 Package pdftex.def Info: logos/Um5-ENSIAS.png  used on input line 5.
 (pdftex.def)             Requested size: 127.89554pt x 54.81355pt.
-<logos/BCP.png, id=209, 2569.6pt x 709.65125pt>
+<logos/BCP.png, id=225, 2569.6pt x 709.65125pt>
 File: logos/BCP.png Graphic file (type png)
 <use logos/BCP.png>
 Package pdftex.def Info: logos/BCP.png  used on input line 9.
@@ -803,7 +803,7 @@ l.24 \clearpage
 
 
 ]) (./intro/Remerciments.tex
-<images/zwa9a line.png, id=226, 597.17842pt x 55.78737pt>
+<images/zwa9a line.png, id=242, 597.17842pt x 55.78737pt>
 File: images/zwa9a line.png Graphic file (type png)
 <use images/zwa9a line.png>
 Package pdftex.def Info: images/zwa9a line.png  used on input line 2.
@@ -971,7 +971,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--40
 
  []
 
-<images/bcp-structure.jpg, id=402, 2677.00125pt x 1505.625pt>
+<images/bcp-structure.jpg, id=444, 2677.00125pt x 1505.625pt>
 File: images/bcp-structure.jpg Graphic file (type jpg)
 <use images/bcp-structure.jpg>
 Package pdftex.def Info: images/bcp-structure.jpg  used on input line 44.
@@ -1138,12 +1138,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9
 
 ]
-<images/use-case.png, id=436, 1267.73625pt x 745.78625pt>
+<images/use-case.png, id=478, 1267.73625pt x 745.78625pt>
 File: images/use-case.png Graphic file (type png)
 <use images/use-case.png>
 Package pdftex.def Info: images/use-case.png  used on input line 133.
 (pdftex.def)             Requested size: 441.01773pt x 259.43593pt.
-<images/cas-utilisation-expert-metier.png, id=437, 773.89125pt x 713.66624pt>
+<images/cas-utilisation-expert-metier.png, id=479, 773.89125pt x 713.66624pt>
 File: images/cas-utilisation-expert-metier.png Graphic file (type png)
 <use images/cas-utilisation-expert-metier.png>
 Package pdftex.def Info: images/cas-utilisation-expert-metier.png  used on input line 142.
@@ -1167,7 +1167,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <./images/cas-utilisation-expert-metier.png>]
-<images/cas-utilisation-rpo.png, id=448, 704.6325pt x 583.17876pt>
+<images/cas-utilisation-rpo.png, id=491, 704.6325pt x 583.17876pt>
 File: images/cas-utilisation-rpo.png Graphic file (type png)
 <use images/cas-utilisation-rpo.png>
 Package pdftex.def Info: images/cas-utilisation-rpo.png  used on input line 153.
@@ -1183,7 +1183,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12
 
  <./images/cas-utilisation-rpo.png>]
-<images/cas-utilisation-dpo.png, id=454, 704.6325pt x 583.17876pt>
+<images/cas-utilisation-dpo.png, id=497, 704.6325pt x 583.17876pt>
 File: images/cas-utilisation-dpo.png Graphic file (type png)
 <use images/cas-utilisation-dpo.png>
 Package pdftex.def Info: images/cas-utilisation-dpo.png  used on input line 163.
@@ -1199,7 +1199,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [13
 
  <./images/cas-utilisation-dpo.png>]
-<images/cas-utilisation-gdpo.png, id=460, 705.63625pt x 563.10374pt>
+<images/cas-utilisation-gdpo.png, id=503, 705.63625pt x 563.10374pt>
 File: images/cas-utilisation-gdpo.png Graphic file (type png)
 <use images/cas-utilisation-gdpo.png>
 Package pdftex.def Info: images/cas-utilisation-gdpo.png  used on input line 174.
@@ -1215,7 +1215,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
  <./images/cas-utilisation-gdpo.png>]
-<images/cas-utilisation-agent-habiliation.png, id=466, 728.7225pt x 613.29124pt>
+<images/cas-utilisation-agent-habiliation.png, id=509, 728.7225pt x 613.29124pt>
 File: images/cas-utilisation-agent-habiliation.png Graphic file (type png)
 <use images/cas-utilisation-agent-habiliation.png>
 Package pdftex.def Info: images/cas-utilisation-agent-habiliation.png  used on input line 184.
@@ -1255,7 +1255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<images/context-diagram.drawio.png, id=478, 524.96124pt x 389.455pt>
+<images/context-diagram.drawio.png, id=520, 524.96124pt x 389.455pt>
 File: images/context-diagram.drawio.png Graphic file (type png)
 <use images/context-diagram.drawio.png>
 Package pdftex.def Info: images/context-diagram.drawio.png  used on input line 25.
@@ -1274,7 +1274,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-<images/container-diagram.png, id=484, 596.2275pt x 654.445pt>
+<images/container-diagram.png, id=526, 596.2275pt x 654.445pt>
 File: images/container-diagram.png Graphic file (type png)
 <use images/container-diagram.png>
 Package pdftex.def Info: images/container-diagram.png  used on input line 48.
@@ -1289,7 +1289,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [18
 
  <./images/container-diagram.png>]
-<images/component-diagram.png, id=490, 904.37875pt x 955.57pt>
+<images/component-diagram.png, id=532, 904.37875pt x 955.57pt>
 File: images/component-diagram.png Graphic file (type png)
 <use images/component-diagram.png>
 Package pdftex.def Info: images/component-diagram.png  used on input line 59.
@@ -1305,12 +1305,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [19
 
  <./images/component-diagram.png>]
-<images/class-diagram.png, id=496, 1468.48625pt x 782.925pt>
+<images/class-diagram.png, id=538, 1468.48625pt x 782.925pt>
 File: images/class-diagram.png Graphic file (type png)
 <use images/class-diagram.png>
 Package pdftex.def Info: images/class-diagram.png  used on input line 72.
 (pdftex.def)             Requested size: 620.39pt x 330.76329pt.
-<images/sequence-diagram-value-creation.png, id=497, 698.61pt x 815.045pt>
+<images/sequence-diagram-value-creation.png, id=539, 698.61pt x 815.045pt>
 File: images/sequence-diagram-value-creation.png Graphic file (type png)
 <use images/sequence-diagram-value-creation.png>
 Package pdftex.def Info: images/sequence-diagram-value-creation.png  used on input line 84.
@@ -1342,7 +1342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<logos/spring.png, id=513, 245.91875pt x 63.23625pt>
+<logos/spring.png, id=555, 245.91875pt x 63.23625pt>
 File: logos/spring.png Graphic file (type png)
 <use logos/spring.png>
 Package pdftex.def Info: logos/spring.png  used on input line 14.
@@ -1352,7 +1352,7 @@ Overfull \hbox (22.0272pt too wide) in paragraph at lines 23--24
 []\OT1/cmr/m/n/12 L'inversion de contr^ole,assur^^See de deux fa^^Xcons diff^^Serentes : la re-cherche de d^^Sependances
  []
 
-<logos/react.png, id=514, 4111.36pt x 4111.36pt>
+<logos/react.png, id=556, 4111.36pt x 4111.36pt>
 File: logos/react.png Graphic file (type png)
 <use logos/react.png>
 Package pdftex.def Info: logos/react.png  used on input line 35.
@@ -1367,12 +1367,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [23
 
  <./logos/spring.png> <./logos/react.png>]
-<logos/postgres.png, id=521, 852.18375pt x 832.10875pt>
+<logos/postgres.png, id=563, 852.18375pt x 832.10875pt>
 File: logos/postgres.png Graphic file (type png)
 <use logos/postgres.png>
 Package pdftex.def Info: logos/postgres.png  used on input line 50.
 (pdftex.def)             Requested size: 110.25443pt x 107.65735pt.
-<logos/docker.png, id=522, 1359.0775pt x 1212.53pt>
+<logos/docker.png, id=564, 1359.0775pt x 1212.53pt>
 File: logos/docker.png Graphic file (type png)
 <use logos/docker.png>
 Package pdftex.def Info: logos/docker.png  used on input line 63.
@@ -1388,12 +1388,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [24
 
  <./logos/postgres.png> <./logos/docker.png>]
-<logos/junit.png, id=529, 1004.75375pt x 345.29pt>
+<logos/junit.png, id=571, 1004.75375pt x 345.29pt>
 File: logos/junit.png Graphic file (type png)
 <use logos/junit.png>
 Package pdftex.def Info: logos/junit.png  used on input line 77.
 (pdftex.def)             Requested size: 132.30666pt x 45.46355pt.
-<logos/mockito.png, id=530, 803.0pt x 401.5pt>
+<logos/mockito.png, id=572, 803.0pt x 401.5pt>
 File: logos/mockito.png Graphic file (type png)
 <use logos/mockito.png>
 Package pdftex.def Info: logos/mockito.png  used on input line 89.
@@ -1409,17 +1409,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [25
 
  <./logos/junit.png> <./logos/mockito.png>]
-<logos/gradle.png, id=537, 1606.0pt x 1204.5pt>
+<logos/gradle.png, id=579, 1606.0pt x 1204.5pt>
 File: logos/gradle.png Graphic file (type png)
 <use logos/gradle.png>
 Package pdftex.def Info: logos/gradle.png  used on input line 104.
 (pdftex.def)             Requested size: 110.25443pt x 82.68787pt.
-<logos/checkstyle.png, id=538, 423.984pt x 80.4606pt>
+<logos/checkstyle.png, id=580, 423.984pt x 80.4606pt>
 File: logos/checkstyle.png Graphic file (type png)
 <use logos/checkstyle.png>
 Package pdftex.def Info: logos/checkstyle.png  used on input line 117.
 (pdftex.def)             Requested size: 154.35889pt x 29.2936pt.
-<logos/pmd.png, id=539, 429.32674pt x 176.02396pt>
+<logos/pmd.png, id=581, 429.32674pt x 176.02396pt>
 File: logos/pmd.png Graphic file (type png)
 <use logos/pmd.png>
 Package pdftex.def Info: logos/pmd.png  used on input line 128.
@@ -1435,12 +1435,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [26
 
  <./logos/gradle.png> <./logos/checkstyle.png> <./logos/pmd.png>]
-<logos/git.png, id=547, 2509.375pt x 1058.95625pt>
+<logos/git.png, id=589, 2509.375pt x 1058.95625pt>
 File: logos/git.png Graphic file (type png)
 <use logos/git.png>
 Package pdftex.def Info: logos/git.png  used on input line 140.
 (pdftex.def)             Requested size: 132.30666pt x 55.82709pt.
-<logos/github.png, id=548, 513.92pt x 513.92pt>
+<logos/github.png, id=590, 513.92pt x 513.92pt>
 File: logos/github.png Graphic file (type png)
 <use logos/github.png>
 Package pdftex.def Info: logos/github.png  used on input line 150.
@@ -1456,7 +1456,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [27
 
  <./logos/git.png> <./logos/github.png>]
-<images/guis/login.png, id=556, 1927.2pt x 969.6225pt>
+<images/guis/login.png, id=598, 1927.2pt x 969.6225pt>
 File: images/guis/login.png Graphic file (type png)
 <use images/guis/login.png>
 Package pdftex.def Info: images/guis/login.png  used on input line 170.
@@ -1476,7 +1476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
-<images/guis/parametrage/initial.png, id=562, 1229.59375pt x 733.74126pt>
+<images/guis/parametrage/initial.png, id=605, 1229.59375pt x 733.74126pt>
 File: images/guis/parametrage/initial.png Graphic file (type png)
 <use images/guis/parametrage/initial.png>
 Package pdftex.def Info: images/guis/parametrage/initial.png  used on input line 186.
@@ -1505,12 +1505,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-<images/guis/parametrage/form-initial.png, id=568, 1228.59pt x 712.6625pt>
+<images/guis/parametrage/form-initial.png, id=611, 1228.59pt x 712.6625pt>
 File: images/guis/parametrage/form-initial.png Graphic file (type png)
 <use images/guis/parametrage/form-initial.png>
 Package pdftex.def Info: images/guis/parametrage/form-initial.png  used on input line 213.
 (pdftex.def)             Requested size: 308.71106pt x 179.06775pt.
-<images/guis/parametrage/form-attribute-selection.png, id=569, 1228.59pt x 711.65875pt>
+<images/guis/parametrage/form-attribute-selection.png, id=612, 1228.59pt x 711.65875pt>
 File: images/guis/parametrage/form-attribute-selection.png Graphic file (type png)
 <use images/guis/parametrage/form-attribute-selection.png>
 Package pdftex.def Info: images/guis/parametrage/form-attribute-selection.png  used on input line 218.
@@ -1529,7 +1529,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-<images/guis/parametrage/form-independent-attribute.png, id=574, 1229.59375pt x 733.74126pt>
+<images/guis/parametrage/form-independent-attribute.png, id=617, 1229.59375pt x 733.74126pt>
 File: images/guis/parametrage/form-independent-attribute.png Graphic file (type png)
 <use images/guis/parametrage/form-independent-attribute.png>
 Package pdftex.def Info: images/guis/parametrage/form-independent-attribute.png  used on input line 228.
@@ -1558,7 +1558,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-<images/guis/parametrage/form-parent-attribute.png, id=580, 1222.5675pt x 709.65125pt>
+<images/guis/parametrage/form-parent-attribute.png, id=623, 1222.5675pt x 709.65125pt>
 File: images/guis/parametrage/form-parent-attribute.png Graphic file (type png)
 <use images/guis/parametrage/form-parent-attribute.png>
 Package pdftex.def Info: images/guis/parametrage/form-parent-attribute.png  used on input line 241.
@@ -1583,12 +1583,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [32
 
  <./images/guis/parametrage/form-parent-attribute.png>]
-<images/guis/parametrage/table-post-parent-saved.png, id=585, 1229.59375pt x 745.78625pt>
+<images/guis/parametrage/table-post-parent-saved.png, id=628, 1229.59375pt x 745.78625pt>
 File: images/guis/parametrage/table-post-parent-saved.png Graphic file (type png)
 <use images/guis/parametrage/table-post-parent-saved.png>
 Package pdftex.def Info: images/guis/parametrage/table-post-parent-saved.png  used on input line 256.
 (pdftex.def)             Requested size: 441.01773pt x 267.49281pt.
-<images/guis/parametrage/form-child1.png, id=586, 1228.59pt x 712.6625pt>
+<images/guis/parametrage/form-child1.png, id=629, 1228.59pt x 712.6625pt>
 File: images/guis/parametrage/form-child1.png Graphic file (type png)
 <use images/guis/parametrage/form-child1.png>
 Package pdftex.def Info: images/guis/parametrage/form-child1.png  used on input line 265.
@@ -1604,7 +1604,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [33
 
  <./images/guis/parametrage/table-post-parent-saved.png> <./images/guis/parametrage/form-child1.png>]
-<images/guis/parametrage/form-child2.png, id=594, 1229.59375pt x 707.64375pt>
+<images/guis/parametrage/form-child2.png, id=636, 1229.59375pt x 707.64375pt>
 File: images/guis/parametrage/form-child2.png Graphic file (type png)
 <use images/guis/parametrage/form-child2.png>
 Package pdftex.def Info: images/guis/parametrage/form-child2.png  used on input line 277.
@@ -1614,7 +1614,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-<images/guis/parametrage/post-children-save-table.png, id=595, 1229.59375pt x 850.17625pt>
+<images/guis/parametrage/post-children-save-table.png, id=637, 1229.59375pt x 850.17625pt>
 File: images/guis/parametrage/post-children-save-table.png Graphic file (type png)
 <use images/guis/parametrage/post-children-save-table.png>
 Package pdftex.def Info: images/guis/parametrage/post-children-save-table.png  used on input line 286.
@@ -1638,7 +1638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-<images/guis/nouvelle-fiche/nouvelle-fiche-1.png, id=601, 1230.5975pt x 1099.10625pt>
+<images/guis/nouvelle-fiche/nouvelle-fiche-1.png, id=643, 1230.5975pt x 1099.10625pt>
 File: images/guis/nouvelle-fiche/nouvelle-fiche-1.png Graphic file (type png)
 <use images/guis/nouvelle-fiche/nouvelle-fiche-1.png>
 Package pdftex.def Info: images/guis/nouvelle-fiche/nouvelle-fiche-1.png  used on input line 300.
@@ -1653,12 +1653,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [35
 
  <./images/guis/nouvelle-fiche/nouvelle-fiche-1.png>]
-<images/guis/nouvelle-fiche/nouvelle-fiche-2-1.png, id=607, 1226.5825pt x 1609.01125pt>
+<images/guis/nouvelle-fiche/nouvelle-fiche-2-1.png, id=649, 1226.5825pt x 1609.01125pt>
 File: images/guis/nouvelle-fiche/nouvelle-fiche-2-1.png Graphic file (type png)
 <use images/guis/nouvelle-fiche/nouvelle-fiche-2-1.png>
 Package pdftex.def Info: images/guis/nouvelle-fiche/nouvelle-fiche-2-1.png  used on input line 310.
 (pdftex.def)             Requested size: 441.01773pt x 578.50706pt.
-<images/guis/nouvelle-fiche/nouvelle-fiche-2-2.png, id=608, 1229.59375pt x 1211.52625pt>
+<images/guis/nouvelle-fiche/nouvelle-fiche-2-2.png, id=650, 1229.59375pt x 1211.52625pt>
 File: images/guis/nouvelle-fiche/nouvelle-fiche-2-2.png Graphic file (type png)
 <use images/guis/nouvelle-fiche/nouvelle-fiche-2-2.png>
 Package pdftex.def Info: images/guis/nouvelle-fiche/nouvelle-fiche-2-2.png  used on input line 316.
@@ -1686,7 +1686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
-<images/guis/nouvelle-fiche/nouvelle-fiche-3.png, id=617, 1229.59375pt x 1136.245pt>
+<images/guis/nouvelle-fiche/nouvelle-fiche-3.png, id=659, 1229.59375pt x 1136.245pt>
 File: images/guis/nouvelle-fiche/nouvelle-fiche-3.png Graphic file (type png)
 <use images/guis/nouvelle-fiche/nouvelle-fiche-3.png>
 Package pdftex.def Info: images/guis/nouvelle-fiche/nouvelle-fiche-3.png  used on input line 326.
@@ -1705,7 +1705,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
-<images/guis/nouvelle-fiche/nouvelle-fiche-4.png, id=623, 1229.59375pt x 844.15375pt>
+<images/guis/nouvelle-fiche/nouvelle-fiche-4.png, id=665, 1229.59375pt x 844.15375pt>
 File: images/guis/nouvelle-fiche/nouvelle-fiche-4.png Graphic file (type png)
 <use images/guis/nouvelle-fiche/nouvelle-fiche-4.png>
 Package pdftex.def Info: images/guis/nouvelle-fiche/nouvelle-fiche-4.png  used on input line 336.
@@ -1724,16 +1724,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
-<images/guis/nouvelle-fiche/nouvelle-fiche-5.png, id=630, 1229.59375pt x 942.52126pt>
+<images/guis/nouvelle-fiche/nouvelle-fiche-5.png, id=672, 1229.59375pt x 942.52126pt>
 File: images/guis/nouvelle-fiche/nouvelle-fiche-5.png Graphic file (type png)
 <use images/guis/nouvelle-fiche/nouvelle-fiche-5.png>
 Package pdftex.def Info: images/guis/nouvelle-fiche/nouvelle-fiche-5.png  used on input line 348.
 (pdftex.def)             Requested size: 441.01773pt x 338.05618pt.
-<images/fiches.png, id=631, 1573.88pt x 938.50626pt>
-File: images/fiches.png Graphic file (type png)
-<use images/fiches.png>
-Package pdftex.def Info: images/fiches.png  used on input line 359.
-(pdftex.def)             Requested size: 595.37662pt x 355.01787pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1744,6 +1744,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [40
 
  <./images/guis/nouvelle-fiche/nouvelle-fiche-5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
+
+ []
+
+<images/guis/fiches/fiches-em.png, id=678, 1215.54124pt x 798.985pt>
+File: images/guis/fiches/fiches-em.png Graphic file (type png)
+<use images/guis/fiches/fiches-em.png>
+Package pdftex.def Info: images/guis/fiches/fiches-em.png  used on input line 367.
+(pdftex.def)             Requested size: 441.01773pt x 289.87761pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1751,7 +1770,160 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./images/fiches.png>]) (./outro/Conclusion generale.tex
+[41
+
+ <./images/guis/fiches/fiches-em.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 373--375
+
+ []
+
+<images/guis/fiches/fiches-rpo.png, id=684, 1215.54124pt x 798.985pt>
+File: images/guis/fiches/fiches-rpo.png Graphic file (type png)
+<use images/guis/fiches/fiches-rpo.png>
+Package pdftex.def Info: images/guis/fiches/fiches-rpo.png  used on input line 378.
+(pdftex.def)             Requested size: 441.01773pt x 289.87761pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42
+
+ <./images/guis/fiches/fiches-rpo.png>]
+<images/guis/fiches/fiches-dpo.png, id=690, 1215.54124pt x 798.985pt>
+File: images/guis/fiches/fiches-dpo.png Graphic file (type png)
+<use images/guis/fiches/fiches-dpo.png>
+Package pdftex.def Info: images/guis/fiches/fiches-dpo.png  used on input line 392.
+(pdftex.def)             Requested size: 441.01773pt x 289.87761pt.
+<images/guis/fiches/fiches-gdpo.png, id=691, 1215.54124pt x 798.985pt>
+File: images/guis/fiches/fiches-gdpo.png Graphic file (type png)
+<use images/guis/fiches/fiches-gdpo.png>
+Package pdftex.def Info: images/guis/fiches/fiches-gdpo.png  used on input line 398.
+(pdftex.def)             Requested size: 441.01773pt x 289.87761pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43
+
+ <./images/guis/fiches/fiches-dpo.png> <./images/guis/fiches/fiches-gdpo.png>]
+<images/guis/validation.png, id=698, 1927.2pt x 1205.50375pt>
+File: images/guis/validation.png Graphic file (type png)
+<use images/guis/validation.png>
+Package pdftex.def Info: images/guis/validation.png  used on input line 408.
+(pdftex.def)             Requested size: 620.42186pt x 388.09775pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44
+
+ <./images/guis/validation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+
+ []
+
+<images/guis/utilisateurs.png, id=704, 1228.59pt x 975.645pt>
+File: images/guis/utilisateurs.png Graphic file (type png)
+<use images/guis/utilisateurs.png>
+Package pdftex.def Info: images/guis/utilisateurs.png  used on input line 420.
+(pdftex.def)             Requested size: 441.01773pt x 350.2196pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45
+
+ <./images/guis/utilisateurs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+<images/guis/roles.png, id=711, 1228.59pt x 689.57625pt>
+File: images/guis/roles.png Graphic file (type png)
+<use images/guis/roles.png>
+Package pdftex.def Info: images/guis/roles.png  used on input line 438.
+(pdftex.def)             Requested size: 441.01773pt x 247.53175pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46
+
+ <./images/guis/roles.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+<images/guis/dashboard.png, id=717, 1858.945pt x 1606.0pt>
+File: images/guis/dashboard.png Graphic file (type png)
+<use images/guis/dashboard.png>
+Package pdftex.def Info: images/guis/dashboard.png  used on input line 452.
+(pdftex.def)             Requested size: 441.01773pt x 380.98787pt.
+<images/guis/dashboard1.png, id=718, 730.73pt x 566.115pt>
+File: images/guis/dashboard1.png Graphic file (type png)
+<use images/guis/dashboard1.png>
+Package pdftex.def Info: images/guis/dashboard1.png  used on input line 461.
+(pdftex.def)             Requested size: 330.76329pt x 256.25244pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47
+
+ <./images/guis/dashboard.png>]
+<images/guis/dashboard2.png, id=723, 472.76625pt x 206.7725pt>
+File: images/guis/dashboard2.png Graphic file (type png)
+<use images/guis/dashboard2.png>
+Package pdftex.def Info: images/guis/dashboard2.png  used on input line 469.
+(pdftex.def)             Requested size: 220.50887pt x 96.4448pt.
+<images/guis/dashboard3.png, id=724, 583.17876pt x 289.08pt>
+File: images/guis/dashboard3.png Graphic file (type png)
+<use images/guis/dashboard3.png>
+Package pdftex.def Info: images/guis/dashboard3.png  used on input line 477.
+(pdftex.def)             Requested size: 308.71106pt x 153.0308pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48 <./images/guis/dashboard1.png> <./images/guis/dashboard2.png>]
+<images/guis/dashboard4.png, id=729, 1375.1375pt x 563.10374pt>
+File: images/guis/dashboard4.png Graphic file (type png)
+<use images/guis/dashboard4.png>
+Package pdftex.def Info: images/guis/dashboard4.png  used on input line 486.
+(pdftex.def)             Requested size: 441.01773pt x 180.59212pt.
+) (./outro/Conclusion generale.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49 <./images/guis/dashboard3.png> <./images/guis/dashboard4.png>]
 File: images/zwa9a line.png Graphic file (type png)
 <use images/zwa9a line.png>
 Package pdftex.def Info: images/zwa9a line.png  used on input line 3.
@@ -1761,9 +1933,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.3 \end{conclusiongeneral}
-                            [1
-
-]) (./Report.bbl
+                            [1]) (./Report.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -1787,21 +1957,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 8C64A632130A32FB8C78AB7A6C72708C;8520.
+(rerunfilecheck)             Checksum: 4FA05416D657EAC34C08766896BF81B8;9205.
  ) 
 Here is how much of TeX's memory you used:
- 26715 strings out of 474050
- 496536 string characters out of 5742269
+ 26819 strings out of 474050
+ 499610 string characters out of 5742269
  1942751 words of memory out of 5000000
- 48469 multiletter control sequences out of 15000+600000
+ 48550 multiletter control sequences out of 15000+600000
  566255 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,12n,96p,1077b,802s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Report.pdf (53 pages, 3455274 bytes).
+Output written on Report.pdf (61 pages, 4391195 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 564 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
- 628 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 815 PDF objects out of 1000 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 715 words of extra memory for PDF output out of 10000 (max. 10000000)
 

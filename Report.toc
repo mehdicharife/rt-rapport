@@ -51,4 +51,8 @@
 \contentsline {subsection}{\numberline {4.2.1}Page d'authentification}{28}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Gestion des paramètrages}{29}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Ajout d'une fiche de traitement}{35}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Liste des fiches de traitement}{41}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.4}Gestion des fiches de traitement}{41}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Validation du traitement}{44}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Gestion des utilisateurs}{45}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Gestion des rôles}{46}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Tableau de bord}{47}{subsection.4.2.8}%

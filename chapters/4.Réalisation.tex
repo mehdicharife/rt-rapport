@@ -349,21 +349,142 @@ La dernière étape, \textit{"Mesures de sécurité"}, décrit l'ensemble des me
     \caption{5ème étape du formulaire de la fiche}
 \end{figure}
 
-\noindent En vertu du coup élevé en cas de mal-saisie, le bouton "Suivant" est remplacé par un bouton qui permet à l'utilisateur de visualiser un récapitulatif des informations saisies à propos du traitement tout au long du formulaire, ce qui permet d'effectuer une dernière validation avant de confirmer l'enregistrement de la fiche de traitement. 
-
-
-\subsection{Liste des fiches de traitement}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.35\textwidth, angle=90]{images/fiches.png}
-    \caption{Page de la liste des fiches de traitement}
-\end{figure}
+\noindent En vertu du coup élevé en cas de mal-saisie, le bouton "Suivant" est remplacé par un bouton qui permet à l'utilisateur de visualiser un récapitulatif des informations saisies à propos du traitement tout au long du formulaire, ce qui permet d'effectuer une dernière validation avant de confirmer l'enregistrement de la fiche de traitement. \\
 
 \clearpage
 
 
+\subsection{Gestion des fiches de traitement}
+
+La gestion des fiches de traitement en matière de consultation, de modification, de suivie, et de suppression se fait à travers une page exposant l'ensemble des fiches du registre de traitement ainsi que les opérations pouvant être appliqués sur chaque fiche. \\
+
+\noindent A l'exception de l'agent d'habilitation, tous les utilisateurs peuvent accéder à cette interface. Bien que l'accés à l'interface n'est pas totalement limité, le contenu de celle-ci s'adapte de manière à refleter les responsabilités et les autorisations de chaque acteur. \\
+
+\noindent L'expert métier, étant rédacteur de la fiche du traitement, peut consulter cette interface pour suivre l'état d'avancement de ses propres fiches, d'y apporter des modifications, ou de supprimer une fiche du registre de traitement. Il est à noter que la suppression d'une fiche de traitement ne constitue pas une destruction totale de la fiche en question. La fiche continue à vivre dans la base de données pour des raisons de traçabilité mais elle cesse d'apparaître dans le tableau exposant l'ensemble des fiches du registre de traitement. Cette approche est nécessaire pour garantir un maximum de traçabilité et de transparence dans la gestion du registre de traitement. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/fiches/fiches-em.png}
+    \caption{Interface de gestion des fiche du point de vue de l'expert métier}
+\end{figure}
+
+\clearpage
+ 
+\noindent 
+Le RPO, chargé d'effectuer la première validation de la fiche de traitement, se sert de l'interface pour lister l'ensemble des fiches issues du représentant dont il fait partie. Pour chaque fiche du traitement, il peut y examiner le contenu et prendre une décision de valider, de rejeter, ou de retourner la fiche du traitement à l'expert métier. Chaque décision est enrichie d'un commentaire qui en sert de justification. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/fiches/fiches-rpo.png}
+    \caption{Interface de gestion des fiche du point de vue du RPO}
+\end{figure}
+
+\vspace{.3cm}
+
+\noindent Il est à noter que l'interface du point de vue du RPO, contrairement à celle destinée à l'expert métier, ne dispose pas de boutons pour la modification et la suppression des fiches de traitement. Conformément aux spécifications, ces opérations sont réservées uniquement à l'expert métier.  
+
+\clearpage
+
+\noindent L'interface s'adapte similairement aux responsabilités du DPO et du GDPO:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/fiches/fiches-dpo.png}
+    \caption{Interface de gestion des fiche du point de vue du DPO}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/fiches/fiches-gdpo.png}
+    \caption{Interface de gestion des fiche du point de vue du GDPO}
+\end{figure}
+
+\clearpage
+
+\subsection{Validation du traitement}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=.88\textwidth, angle=90]{images/guis/validation.png}
+    \caption{Interface de gestion des utilisateurs}
+\end{figure}
+
+\clearpage
+
+\subsection{Gestion des utilisateurs}
+
+Similairement à la gestion des valeurs et des fiches de traitement, la gestion des utilisateurs se fait à travers une interface dédiée. L'interface comporte un tableau listant l'ensemble des utilisateurs et dont la dernière colonne expose des actions qui peuvent s'appliquer sur chaque utilisateur, ainsi q'un bouton qui permet d'ajouter de nouveaux utilisateurs au système d'automatisation du registre de traitement. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/utilisateurs.png}
+    \caption{Interface de gestion des utilisateurs}
+\end{figure}
+
+\noindent Conformément aux spécifications, uniquement l'agent d'habiliation possède le droit d'accéder et d'utiliser cette les fonctionnalités offertes par cette interfaces.
 
 
 
 
+\clearpage
+
+
+\subsection{Gestion des rôles}
+
+L'interface dédiée à la gestion des roles suit une structure similaire à celles des interfaces destinées à la gestion des autres objets métier. Elle comporte un tableau listant l'ensemble des acteurs du registre de traitement et exposant la possibilité d'apporter des modifications à ces derniers en matière des permissions dont ils disposent. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/roles.png}
+    \caption{Interface de gestion des rôles}
+\end{figure}
+
+\noindent Les rôles étant fixes, l'interface n'expose pas la possibilité d'ajouter, ni de supprimer les rôles existants.
+
+\clearpage
+
+\subsection{Tableau de bord}
+
+Le tableau de bord de l'application se compose de plusieurs sections utilisant des graphiques pour présenter diverses données de manière visuelle et intuitive. Ces graphiques permettent de visualiser les fiches par représentant, l'état des fiches, la répartition annuelle des fiches et le nombre de fiches par catégorie de données. \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/dashboard.png}
+    \caption{Tableau de bord}
+\end{figure}
+
+
+\noindent Le tableau de bord comprend une première section avec un graphique à barres illustrant le nombre de fiches par représentant. Ce graphique montre des données pour 15 catégories de départements, telles que la "Banque commerciale", "Sécurité des personnes et des biens", et "Finances performance", avec des barres verticales colorées en orange et les étiquettes des catégories inclinées pour une meilleure lisibilité.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\textwidth]{images/guis/dashboard1.png}
+    \caption{Tableau de bord}
+\end{figure}
+
+\noindent Une autre section du tableau de bord contient un graphique en camembert représentant la partition des fiches par état. Ce graphique montre la répartition des fiches en trois segments: validées (85\%), en cours de validation (3\%) et rejetées (13\%), colorés respectivement en orange, bleu et rouge.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.5\textwidth]{images/guis/dashboard2.png}
+    \caption{Tableau de bord}
+\end{figure}
+
+\noindent Le tableau de bord inclut également un graphique en lignes qui affiche l'évolution annuelle du nombre de fiches créées, validées et rejetées de 2018 à 2023. Les axes X et Y représentent les années et le nombre de fiches, et les courbes colorées différencient chaque série de données : fiches créées (bleu), validées (rouge) et rejetées (violet).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\textwidth]{images/guis/dashboard3.png}
+    \caption{Tableau de bord}
+\end{figure}
+
+\noindent Enfin, une section présente un autre graphique à barres montrant le nombre de fiches par catégorie de données. Ce graphique couvre 25 catégories telles que "Identification simple", "Coordonnées", et "Situation financière et patrimoniale", avec des barres rouges foncées et des étiquettes inclinées pour une meilleure visibilité.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/dashboard4.png}
+    \caption{Tableau de bord}
+\end{figure}
+
+\noindent Le tableau de bord de l'application utilise une variété de graphiques pour visualiser des données complexes de manière claire et attrayante. Les graphiques à barres, en camembert et en lignes offrent des aperçus détaillés et des tendances, facilitant ainsi la compréhension et la prise de décision pour les utilisateurs.
