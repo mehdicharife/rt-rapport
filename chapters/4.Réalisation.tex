@@ -413,7 +413,9 @@ Le RPO, chargé d'effectuer la première validation de la fiche de traitement, s
 
 \subsection{Gestion des utilisateurs}
 
-Similairement à la gestion des valeurs et des fiches de traitement, la gestion des utilisateurs se fait à travers une interface dédiée. L'interface comporte un tableau listant l'ensemble des utilisateurs et dont la dernière colonne expose des actions qui peuvent s'appliquer sur chaque utilisateur, ainsi q'un bouton qui permet d'ajouter de nouveaux utilisateurs au système d'automatisation du registre de traitement. \\
+Similairement à la gestion des valeurs et des fiches de traitement, la gestion des utilisateurs se fait à travers une interface dédiée. L'interface comporte un tableau listant l'ensemble des utilisateurs et exposant des actions qui peuvent s'appliquer sur chaque utilisateur, ainsi q'un bouton qui permet d'ajouter de nouveaux utilisateurs au système d'automatisation du registre de traitement. \\
+
+\noindent Conformément aux spécifications, uniquement l'agent d'habiliation possède le droit d'accéder et d'utiliser les fonctionnalités offertes par cette interfaces. \\
 
 \begin{figure}[H]
     \centering
@@ -421,12 +423,47 @@ Similairement à la gestion des valeurs et des fiches de traitement, la gestion 
     \caption{Interface de gestion des utilisateurs}
 \end{figure}
 
-\noindent Conformément aux spécifications, uniquement l'agent d'habiliation possède le droit d'accéder et d'utiliser cette les fonctionnalités offertes par cette interfaces.
+\vspace{.3cm}
 
+\noindent L'ajout de nouveaux utilisateurs se fait à traver un formulaire en "Modal" qui s'affiche une fois le bouton "Ajouter" est cliqué. Le formulaire permet d'insérer la matricule de l'utilisateur, son nom et prénom, ainsi que le rôle qu'il va jouer dans l'application.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\textwidth]{images/guis/utilisateurs/form/form-empty.png}
+    \caption{Interface de gestion des utilisateurs}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\textwidth]{images/guis/utilisateurs/form/form-role-options.png}
+    \caption{Interface de gestion des utilisateurs}
+\end{figure}
+
+\noindent La figure suivante démontre un exemple d'ajout d'un RPO dont le nom et prénom est "Farah Tariq" et dont le matricule est MT6543521: \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/utilisateurs/form/form-filled.png}
+    \caption{Interface de gestion des utilisateurs}
+\end{figure}
+
+\noindent Suite à l'enregistrement de cet utilisateur, un alerte est affiché qui en confirme la création: \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/utilisateurs/created.png}
+    \caption{Interface de gestion des utilisateurs}
+\end{figure}
 
 \clearpage
+
+\noindent Le tableau des utilisateurs s'adapte pour refleter l'enregistrement du nouveau RPO: \\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/guis/utilisateurs/table-post-creation.png}
+    \caption{Interface de gestion des utilisateurs}
+\end{figure}
 
 
 \subsection{Gestion des rôles}
